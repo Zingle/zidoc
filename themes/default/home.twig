@@ -1,0 +1,9 @@
+{% extends 'layouts/base.twig' %}
+
+{% block body %}
+    <div class="container">
+        {% block main_content %}
+            {{ content|raw }}
+        {% endblock %}
+    </div>
+{% endblock %}

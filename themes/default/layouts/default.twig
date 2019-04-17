@@ -1,0 +1,14 @@
+{% extends 'layouts/base.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                {% block sidebar %}{% endblock %}
+            </div>
+            <div class="col-8">
+                {% block main_content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
